@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void playPressed(View view) {
         //TODO: Put to start game play activity
-        Intent gamePlay = new Intent(this, PlayActivity.class);
+        Intent gamePlay = new Intent(this, Question1Activity.class);
         startActivity(gamePlay);
     }
 }

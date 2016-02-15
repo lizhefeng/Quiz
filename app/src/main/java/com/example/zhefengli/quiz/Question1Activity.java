@@ -8,17 +8,17 @@ import android.os.Bundle;
 /**
  * Created by zhefengli on 2/14/16.
  */
-public class PlayActivity extends AppCompatActivity {
+public class Question1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play);
+        setContentView(R.layout.activity_question1);
 
         //TA implementation
         getFragmentManager()
                 .beginTransaction()
-                .replace(R.id.main_fragment_container, PlayFragment.newInstance(null, null))
+                .replace(R.id.main_fragment_container, Question1Fragment.newInstance(null, null))
                 .addToBackStack(null)
                 .commit();
         //TA end
