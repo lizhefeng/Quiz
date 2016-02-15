@@ -1,7 +1,9 @@
 package com.example.zhefengli.quiz;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 //import android.view.Menu;
 //import android.view.MenuItem;
 
@@ -22,6 +24,12 @@ public class Question1Activity extends AppCompatActivity {
                 .addToBackStack(null)
                 .commit();
         //TA end
+    }
+
+    public void submitPressed(View view) {
+        //TODO: Put to start game play activity
+        Intent gamePlay = new Intent(this, Question2Activity.class);
+        startActivity(gamePlay);
     }
 
 

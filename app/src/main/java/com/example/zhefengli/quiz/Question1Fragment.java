@@ -26,4 +26,6 @@ public class Question1Fragment extends Fragment {
         return inflater.inflate(R.layout.fragment_question1, container, false);
     }
 
+
+
 }
