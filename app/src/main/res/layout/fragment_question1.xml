@@ -24,7 +24,7 @@
             android:id="@+id/textView"
             android:foregroundGravity="center"
             android:textAlignment="center"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textIsSelectable="true" />
 
         <EditText
