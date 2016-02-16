@@ -17,8 +17,10 @@
             android:text="@string/Question2"
             android:id="@+id/textView2"
             android:singleLine="false"
-            android:textSize="35dp"
-            android:textIsSelectable="false" />
+            android:textSize="32sp"
+            android:textIsSelectable="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
 
         <RadioGroup
             android:id="@+id/radioGroup"
@@ -31,28 +33,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Option1"
-                android:textSize="25dp" />
+                android:textSize="25sp" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Option2"
-                android:textSize="25dp" />
+                android:textSize="25sp" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Option3"
-                android:textSize="25dp" />
+                android:textSize="25sp" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Option4"
-                android:textSize="25dp" />
+                android:textSize="25sp" />
 
         </RadioGroup>
 
@@ -61,7 +63,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Submit"
             android:id="@+id/button3"
-            android:onClick="showDialog" />
+            android:onClick="showMyDialog" />
 
     </LinearLayout>
 

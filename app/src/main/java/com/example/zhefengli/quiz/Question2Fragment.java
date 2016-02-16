@@ -1,4 +1,5 @@
 package com.example.zhefengli.quiz;
+import android.app.Activity;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -16,7 +17,6 @@ public class Question2Fragment extends Fragment {
 
         radioGroup = (RadioGroup) view.findViewById(R.id.radioGroup);
         radioGroup.clearCheck();
-
         return view;
     }
 }

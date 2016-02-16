@@ -16,7 +16,7 @@ public class Question2Activity extends AppCompatActivity {
 
     }
 
-    public void showDialog(View view) {
+    public void showMyDialog(View view) {
         FragmentManager fragmentManager = getFragmentManager();
         QuizDialogFragment quizDialogFragment = new QuizDialogFragment();
         quizDialogFragment.show(fragmentManager, "Dialog Fragment");

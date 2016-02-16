@@ -15,7 +15,7 @@ public class QuizDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Answers: 1: 2; 2: Wisconsin");
+        builder.setTitle("Answers:\n1: 2; 2: Madison");
         builder.setMessage("Take the quiz again?");
         builder.setNegativeButton("Yes", new DialogInterface.OnClickListener() {
             @Override
