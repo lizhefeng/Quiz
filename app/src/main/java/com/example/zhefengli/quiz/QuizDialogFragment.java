@@ -20,7 +20,7 @@ public class QuizDialogFragment extends DialogFragment {
         builder.setNegativeButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                Intent gamePlay = new Intent((Question2Activity)getActivity(), Question1Activity.class);
+                Intent gamePlay = new Intent(getActivity(), Question1Activity.class);
                 startActivity(gamePlay);
             }
         });

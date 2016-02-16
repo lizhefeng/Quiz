@@ -10,13 +10,12 @@ import android.view.ViewGroup;
  */
 public class Question1Fragment extends Fragment {
 
-    public static Question1Fragment newInstance(String player1Choice, String player2Choice) {
-        Question1Fragment fragment = new Question1Fragment();
+    public static Question1Fragment newInstance() {
         //Bundle args = new Bundle();
         //args.putString(ARG_PLAYER_ONE, player1Choice);
         //args.putString(ARG_PLAYER_TWO, player2Choice);
         //fragment.setArguments(args);
-        return fragment;
+        return new Question1Fragment();
     }
 
 

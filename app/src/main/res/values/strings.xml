@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="Question2">Where is Madison?</string>
+    <string name="Question1">What is the answer?</string>
+    <string name="Start">Take Quiz</string>
+    <string name="Option1">Wisconsin</string>
+    <string name="HintForQ1">Please type in your answer</string>
+    <string name="Option2">Arizona</string>
+    <string name="Submit">SUBMIT</string>
+    <string name="Option3">New York</string>
+    <string name="Option4">California</string>
 </resources>

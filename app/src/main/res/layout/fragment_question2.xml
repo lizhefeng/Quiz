@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Where is Madison?"
+            android:text="@string/Question2"
             android:id="@+id/textView2"
             android:singleLine="false"
             android:textSize="35dp"
@@ -30,28 +30,28 @@
                 android:id="@+id/radioButton1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Wisconsin"
+                android:text="@string/Option1"
                 android:textSize="25dp" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Arizona"
+                android:text="@string/Option2"
                 android:textSize="25dp" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="New York"
+                android:text="@string/Option3"
                 android:textSize="25dp" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="California"
+                android:text="@string/Option4"
                 android:textSize="25dp" />
 
         </RadioGroup>
@@ -59,7 +59,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SUBMIT"
+            android:text="@string/Submit"
             android:id="@+id/button3"
             android:onClick="showDialog" />
 

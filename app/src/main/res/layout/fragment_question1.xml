@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is the answer?"
+            android:text="@string/Question1"
             android:id="@+id/textView"
             android:foregroundGravity="center"
             android:textAlignment="center"
@@ -33,12 +33,12 @@
             android:inputType="number"
             android:ems="10"
             android:id="@+id/editText"
-            android:hint="Please type in your answer" />
+            android:hint="@string/HintForQ1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SUBMIT"
+            android:text="@string/Submit"
             android:id="@+id/button2"
             android:onClick="submitPressed" />
     </LinearLayout>

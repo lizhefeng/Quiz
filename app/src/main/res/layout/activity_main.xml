@@ -23,7 +23,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Take Quiz"
+            android:text="@string/Start"
             android:id="@+id/button"
             android:onClick="playPressed"
             android:clickable="true" />

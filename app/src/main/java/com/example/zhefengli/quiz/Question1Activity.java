@@ -20,7 +20,7 @@ public class Question1Activity extends AppCompatActivity {
         //TA implementation
         getFragmentManager()
                 .beginTransaction()
-                .replace(R.id.main_fragment_container, Question1Fragment.newInstance(null, null))
+                .replace(R.id.main_fragment_container, Question1Fragment.newInstance())
                 .addToBackStack(null)
                 .commit();
         //TA end
