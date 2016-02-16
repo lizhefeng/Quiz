@@ -28,5 +28,4 @@
             android:onClick="playPressed"
             android:clickable="true" />
     </LinearLayout>
-
 </RelativeLayout>

@@ -37,5 +37,4 @@ public class QuizDialogFragment extends DialogFragment {
 
         return builder.create();
     }
-
 }

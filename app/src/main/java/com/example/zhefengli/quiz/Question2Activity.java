@@ -17,7 +17,6 @@ public class Question2Activity extends AppCompatActivity {
     }
 
     public void showDialog(View view) {
-        //TODO: Put to start game play activity
         FragmentManager fragmentManager = getFragmentManager();
         QuizDialogFragment quizDialogFragment = new QuizDialogFragment();
         quizDialogFragment.show(fragmentManager, "Dialog Fragment");

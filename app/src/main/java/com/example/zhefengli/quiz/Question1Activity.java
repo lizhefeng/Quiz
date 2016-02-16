@@ -27,17 +27,7 @@ public class Question1Activity extends AppCompatActivity {
     }
 
     public void submitPressed(View view) {
-        //TODO: Put to start game play activity
         Intent gamePlay = new Intent(this, Question2Activity.class);
         startActivity(gamePlay);
     }
-
-
-
-
-
-
-
-
-
 }

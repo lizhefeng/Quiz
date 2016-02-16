@@ -11,10 +11,6 @@ import android.view.ViewGroup;
 public class Question1Fragment extends Fragment {
 
     public static Question1Fragment newInstance() {
-        //Bundle args = new Bundle();
-        //args.putString(ARG_PLAYER_ONE, player1Choice);
-        //args.putString(ARG_PLAYER_TWO, player2Choice);
-        //fragment.setArguments(args);
         return new Question1Fragment();
     }
 
@@ -24,7 +20,4 @@ public class Question1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_question1, container, false);
     }
-
-
-
 }

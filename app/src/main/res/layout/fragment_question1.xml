@@ -41,5 +41,7 @@
             android:text="@string/Submit"
             android:id="@+id/button2"
             android:onClick="submitPressed" />
+
     </LinearLayout>
+
 </FrameLayout>

@@ -17,13 +17,6 @@ public class Question2Fragment extends Fragment {
         radioGroup = (RadioGroup) view.findViewById(R.id.radioGroup);
         radioGroup.clearCheck();
 
-
-
-
-
         return view;
     }
-
-
-
 }
