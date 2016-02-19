@@ -17,7 +17,7 @@ public class QuizDialogFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         String question1Answer = getArguments().getString("userAnswer1");
         String question2Answer = getArguments().getString("userAnswer2");
-        if(question1Answer == null || question2Answer == null)
+        if(question1Answer == null || question1Answer.equals("") || question2Answer == null)
             builder.setTitle("Your answers are not complete.");
         else if(question1Answer.equals("2") && question2Answer.equals("Wisconsin"))
             builder.setTitle("Results:\n1: Correct; 2: Correct");

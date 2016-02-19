@@ -25,8 +25,15 @@ public class Question2Activity extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         String question1Answer = bundle.getString("userAnswer1");
         radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        radioButton = (RadioButton)findViewById(radioGroup.getCheckedRadioButtonId());
-        String question2Answer = radioButton.getText().toString();
+        int radioButtonNum = radioGroup.getCheckedRadioButtonId();
+        String question2Answer;
+        if(radioButtonNum == -1)
+            question2Answer = null;
+        else{
+            radioButton = (RadioButton)findViewById(radioButtonNum);
+            question2Answer = radioButton.getText().toString();
+        }
+
         Bundle bundle1 = new Bundle();
         bundle1.putString("userAnswer1", question1Answer);
         bundle1.putString("userAnswer2", question2Answer);
