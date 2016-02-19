@@ -15,7 +15,19 @@ public class QuizDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Answers:\n1: 2; 2: Madison");
+        String question1Answer = getArguments().getString("userAnswer1");
+        String question2Answer = getArguments().getString("userAnswer2");
+        if(question1Answer == null || question2Answer == null)
+            builder.setTitle("Your answers are not complete.");
+        else if(question1Answer.equals("2") && question2Answer.equals("Wisconsin"))
+            builder.setTitle("Results:\n1: Correct; 2: Correct");
+        else if(question1Answer.equals("2") && !(question2Answer.equals("Wisconsin")))
+            builder.setTitle("Results:\n1: Correct; 2: Wrong");
+        else if(!(question1Answer.equals("2")) && question2Answer.equals("Wisconsin"))
+            builder.setTitle("Results:\n1: Wrong; 2: Correct");
+        else if(!(question1Answer.equals("2")) && !(question2Answer.equals("Wisconsin")))
+            builder.setTitle("Results:\n1: Wrong; 2: Wrong");
+
         builder.setMessage("Take the quiz again?");
         builder.setNegativeButton("Yes", new DialogInterface.OnClickListener() {
             @Override
